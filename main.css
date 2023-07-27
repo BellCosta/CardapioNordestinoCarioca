@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+}
+header{
+    height: 70px;
+    background-color: rgb(255, 197, 109); 
+    position: relative;
+    display: flex;
+    justify-content: space-between;   
+}
+.logonordestino{
+    height: 70px;
+}
+@font-face{
+    font-family: 'Ananias';
+    src: url('ananias.ttf');
+}
+.menu{
+    margin: auto;
+    font-family: 'ananias';
+}
+.sobre{
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.cardapio{
+    margin-left: 30px;
+}
+
+.h3cardapio{
+    margin-bottom: 0;
+    
+}
+.pcardapio{
+    margin-top: 0;
+}
+    
+
+
