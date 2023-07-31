@@ -1,32 +1,51 @@
+@font-face{
+    font-family: 'BreeSerif';
+    src: url('BreeSerif-Regular.ttf');
+}
 body{
     margin: auto;
+    font-family: 'BreeSerif';
 }
 header{
     height: 70px;
-    background-color: rgb(255, 197, 109); 
+    background-color: #e5ca3d; 
     position: relative;
     display: flex;
     justify-content: space-between;   
 }
-.logonordestino{
+.logosorvete{
     height: 70px;
-}
-@font-face{
-    font-family: 'Ananias';
-    src: url('ananias.ttf');
 }
 .menu{
     margin: auto;
-    font-family: 'ananias';
+    
+}
+.imgcontainer{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgb(29, 16, 218);
+    position: relative;
+    
+}    
+.imgcontainer img{
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    margin: 20px 0;
 }
 .sobre{
     text-align: justify;
+    margin-top: 10px;
     margin-right: 30px;
     margin-left: 30px;
     min-width: 200px;
     min-height: 200px;
+    position: relative;
 }
-
+.cardapio img{
+    height: 150px;
+}
 .cardapio{
     margin-left: 30px;
     
@@ -38,8 +57,8 @@ header{
 }
 
 .cardapio h4{
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cardapio p{
     margin-top: 0;
@@ -55,6 +74,9 @@ header{
     padding-bottom: 0px;
     padding-top: 0px;
     border-collapse: separate;
+}
+footer{
+    height: 70px;
 }
 
 
