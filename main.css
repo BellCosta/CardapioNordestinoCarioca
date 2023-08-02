@@ -5,7 +5,10 @@
 body{
     margin: auto;
     font-family: 'BreeSerif';
+    
 }
+
+
 header{
     height: 70px;
     background-color: #e5ca3d; 
@@ -13,13 +16,15 @@ header{
     display: flex;
     justify-content: space-between;   
 }
+header a{
+    text-decoration: none;
+    margin: auto;
+    color: black;
+}
 .logosorvete{
     height: 70px;
 }
-.menu{
-    margin: auto;
-    
-}
+
 .imgcontainer{
     width: auto;
     height: 400px;
@@ -46,7 +51,12 @@ header{
 }
 .cardapio img{
     height: 150px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.cardapio img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
 .cardapio{
     margin-left: 30px;
     
@@ -74,6 +84,35 @@ header{
     border: 2px solid black; 
     padding-bottom: 0px;
     padding-top: 0px;
-    border-collapse: separate;
+    border-collapse: separate; 
+}
+footer{
+    margin: auto;
+    background-color: #e5ca3d;
+    border-top: 20px solid #783de5;
     
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.divfootermenu img{
+    width: 45px;
+    height: 45px;
+    
+    
+    
+}
+.divfootermenu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.divfootermenu ul{
+    list-style: none;
+}
+.titulo{
+    margin-bottom: 5px;
+    font-size: large;
 }
